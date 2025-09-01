@@ -10,3 +10,5 @@ import kotlin.time.Duration
 fun getCurrentTime() = Clock.System.now().toLocalDateTime(TimeZone.UTC).toString()
 
 fun getCurrentTimePlusDuration(plus: Duration) = Clock.System.now().plus(plus).toLocalDateTime(TimeZone.UTC).toString()
+
+fun newFunction() = "this is new updated code"
